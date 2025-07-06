@@ -34,5 +34,8 @@ for number in odd:
     # reset divisor count
     count = 0
 
-print("The prime numbers greater than 2 and less than 1000: ")
-print(prime)
+total = 0
+for prime_number in prime:
+    total += prime_number
+
+print("The sum of prime numbers greater than 2 and less than 1000 is", total)
